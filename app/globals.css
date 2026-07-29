@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0B0B10;
+  color: #F5F5F7;
+}
+
+::selection {
+  background: rgba(139, 92, 246, 0.35);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #60A5FA 0%, #A855F7 50%, #EC4899 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+}
